@@ -12,3 +12,4 @@ Course summary and materials for each computer science course
 - C++ Threads
 - C++ Sockets
 - TCP & UDP
+- Time
