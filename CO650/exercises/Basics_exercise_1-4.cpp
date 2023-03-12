@@ -28,9 +28,11 @@ int main()
     // exercise 2
     int daysInAge;
     // exercise 3
+    // pointer : memory address for variable
     int *pAge = &age;
     // exercise 4
-    int &rAge = *pAge;
+    // reference : alias for variable
+    int &rAge = age;
 
     cout << "Please enter your name: ";
     cin >> name;
