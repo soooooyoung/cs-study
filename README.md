@@ -13,3 +13,7 @@ Course summary and materials for each computer science course
 - C++ Sockets
 - TCP & UDP
 - Time
+
+## [Basic Terms](https://github.com/soooooyoung/cs-courses/tree/main/terms)
+
+- Endianness 
