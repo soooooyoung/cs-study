@@ -18,3 +18,4 @@ Course summary and materials for each computer science course
 
 - Endianness 
 - Containers
+- Dynamic Memory Allocation (`malloc()` and `new`)
