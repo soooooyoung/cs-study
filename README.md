@@ -8,6 +8,7 @@ Course summary and materials for each computer science course
 ## [CO650 by Nicholas Day](https://www.youtube.com/playlist?list=PL9HfA4ZKbzimKyvquT1MZ2x9d6UHjFNFA)
 
 - C++ Basics and Pointers
+- C++ Functions and Parameters
 - Stack, Heap, Memory Management & Destructors
 - C++ Threads
 - C++ Sockets
