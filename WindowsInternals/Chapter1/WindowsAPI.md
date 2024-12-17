@@ -4,7 +4,7 @@ The `Windows Application Programming Interface` (API) is the user-mode system pr
 
 ## Windows API Flavors
 
-The Windows API originally consisted of C-style functions only. C was the natural choice because it was lowest common denominator at the time of the inception of Windows. Today, thousands of functions exist for developers to use, and such many functions resulted in lack of naming consistency and logical groupings. This resulted in some newer APIs using different API mechanism: the `Component Object Model(COM)`.
+The Windows API originally consisted of C-style functions only. C was the natural choice because it was lowest common denominator at the time of the inception of Windows. Today, thousands of functions exist for developers to use, and such many functions resulted in lack of naming consistency and logical groupings. Because of this, some newer APIs use different API mechanism known as the `Component Object Model(COM)`.
 
 ### Component Object Model (COM)
 
