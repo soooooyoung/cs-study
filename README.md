@@ -1,6 +1,6 @@
 # Computer Science
 
-A collection of course summaries, materials, and fundamental concepts in computer science.
+A collection of course summaries, reading materials, and fundamental concepts in computer science.
 
 ## [Windows Internals Part 1, 7th Edition](WindowsInternals/)
 
