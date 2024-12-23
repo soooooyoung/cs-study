@@ -38,3 +38,38 @@ the `Windows Apps`. Windows Apps are subject to new rules, unlike the Windows de
 
 Desktop apps can use a subset of the WinRT APIs. Conversely, Windows Apps can use a subset of Win32 and COM APIs. Conversely, Windows Apps can use a subset of Win32 and COM APIs. At the basic binary level, the WinRT API is still based on top of the legacy Windows binaries and APIs, even though the availability of certain APIs may not be documented or
 supported.
+
+## The .NET Framework
+
+The .NET Framework is a software development platform created by Microsoft, designed to provide a consistent programming environment for applications running on the Windows operating system. It is part of Windows.
+
+Following table shows the .NET Framework version installed by default.
+
+| Windows Version         | .NET Framework Version |
+| ----------------------- | ---------------------- |
+| Windows 8               | 4.5                    |
+| Windows 8.1             | 4.5.1                  |
+| Windows 10              | 4.6                    |
+| Windows 10 version 1511 | 4.6.1                  |
+| Windows 10 version 1607 | 4.6.2                  |
+| Windows 11              | 4.8                    |
+
+Later versions can be installed on older OS versions manually.
+
+The .NET Framework consists of two major components
+
+### The Common Language Runtime (CLR)
+
+This is the run-time engine for .NET and includes a **Just In Time** (JIT) compiler that translates **Common Intermediate Language** (CIL) instructions to the underlying hardware CPU machine language, a garbage collector, type verification, code access security, and more. It's implemented as a COM in-process server (DLL) and uses various facilities provided by the Windows API.
+
+- **Just In Time (JIT) Compilation**: Allows applications to be hardware-independent while leveraging the full performance of the hardware at runtime.
+- **Garbage Collection (GC)**: Automatically manages memory allocation and deallocation, ensuring efficient memory use and reducing issues like memory leaks.
+- **Interoperability with COM**: The CLR works as a COM in-process server (DLL), allowing it to use existing COM components and integrate with native Windows applications.
+
+### The .NET Framwork Class Library (FCL)
+
+This is a large collection of types that implement functionality typically needed by client and server applications, such as user interface services, networking, database access, and more.
+
+- **User Interface Development**: Classes for building Windows Forms, WPF (Windows Presentation Foundation), and web applications.
+- **Networking and Communication**: APIs for network programming, web services, and protocols like HTTP, TCP, and FTP.
+- **Data Access**: Libraries for database interaction, including ADO.NET for relational databases and LINQ for querying data structures.
