@@ -1,4 +1,4 @@
-# Services, functions and routines
+# Services, Functions and Routines
 
 The word `service` can refer to a callable routine in the OS, a device driver, or a server process. In this book following list describes the certain terms mean.
 
