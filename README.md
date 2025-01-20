@@ -9,6 +9,7 @@ Book on internal workings of the Windows operating system, including kernel arch
 - [Chapter1](WindowsInternals/Chapter1/)
   - [Windows API](WindowsInternals/Chapter1/WindowsAPI.md)
   - [Services, Functions and Routines](WindowsInternals/Chapter1/ServicesFunctionsAndRoutines.md)
+  - [Processes](WindowsInternals/Chapter1/Processes.md)
 
 ## [CS50 by DAVID J. MALAN](https://www.youtube.com/watch?v=8mAITcNt710)
 
