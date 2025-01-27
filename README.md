@@ -11,8 +11,8 @@ Book on internal workings of the Windows operating system, including kernel arch
   - [Services, Functions and Routines](WindowsInternals/Chapter1/ServicesFunctionsAndRoutines.md)
   - [Processes](WindowsInternals/Chapter1/Processes.md)
   - [Threads](WindowsInternals/Chapter1/Threads.md)
-  - [Jobs](WindowsInternals/Chapter1/Jobs.md.md)
-  - [VirtualMemory](WindowsInternals/Chapter1/VirtualMemory.md.md)
+  - [Jobs](WindowsInternals/Chapter1/Jobs.md)
+  - [Virtual Memory](WindowsInternals/Chapter1/VirtualMemory.md)
 
 ## [CS50 by DAVID J. MALAN](https://www.youtube.com/watch?v=8mAITcNt710)
 
