@@ -13,6 +13,7 @@ Book on internal workings of the Windows operating system, including kernel arch
   - [Threads](WindowsInternals/Chapter1/Threads.md)
   - [Jobs](WindowsInternals/Chapter1/Jobs.md)
   - [Virtual Memory](WindowsInternals/Chapter1/VirtualMemory.md)
+  - [Kernel Mode vs. User Mode](WindowsInternals/Chapter1/KernalModeAndUserMode.md)
 
 ## [CS50 by DAVID J. MALAN](https://www.youtube.com/watch?v=8mAITcNt710)
 
