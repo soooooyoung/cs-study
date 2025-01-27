@@ -33,7 +33,7 @@ Windows doesn't provide any protection for private read/write system memory bein
 
 This lack of protection also emphasizes the need to remain vigilant when loading a third-party device driver, especially if it's unsigned, because once in kernel mode, the driver has complete access to all OS data.
 
-> [!INFO]  
+> [!NOTE]  
 > This risk was one of the reasons behind the driver-signing mechanism introduced in Windows 2000, which warns (and, if configured as such, blocks) the user if an attempt is made to add an unsigned plug-and-play driver, but does not affect other types of drivers. Also, a mechanism called `Driver Verifer` helps device-driver writers find bugs, such as buffer overruns or memory leaks, that can cause security or reliability issues.
 
 #### Driver Signing Policies
@@ -65,5 +65,5 @@ This transition is triggered by a special processor instruction, enabling the OS
 2. It calls the appropriate internal function in kernel components like `Ntoskrnl.exe` or `Win32k.sys`
 3. After completing the task, the processor switches back to **user mode** and returns control to the user application.
 
-> [!INFO] **Impact on Thread Scheduling**
+> [!NOTE] **Impact on Thread Scheduling**
 > Mode transition do not directly affect thread scheduling- it only changes the privilege lelvel of the executing code.Thus it is **not a context switch**.
