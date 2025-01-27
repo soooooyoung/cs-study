@@ -65,5 +65,5 @@ This transition is triggered by a special processor instruction, enabling the OS
 2. It calls the appropriate internal function in kernel components like `Ntoskrnl.exe` or `Win32k.sys`
 3. After completing the task, the processor switches back to **user mode** and returns control to the user application.
 
-> [!NOTE] **Impact on Thread Scheduling**
+> [!NOTE]
 > Mode transition do not directly affect thread scheduling- it only changes the privilege lelvel of the executing code.Thus it is **not a context switch**.
